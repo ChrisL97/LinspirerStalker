@@ -1,5 +1,6 @@
 ## LinspirerStalker
-A Xposed module for iFlytek(Linspirer) GuardSecure and other associated softwares.
+A developing Xposed module for iFlytek(Linspirer) GuardSecure and other associated softwares, which is based on my another application.
+
 Only works properly on specific devices with **my custom ROM**(rooted and built-in Xposed framework are the basic).
 ***
 #### Functions
