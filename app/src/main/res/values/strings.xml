@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Linspirer Stalker</string>
+    <string name="app_about">The dark is his prey. He chases back the dark, like a hero.</string>
+    <string name="xposed_about">领创运行环境核心功能，禁用会导致领创系列软件无法正常工作。</string>
+
+    <string name="name_launcher">领创平板管理</string>
+    <string name="name_userlogin">用户登录</string>
+    <string name="name_appshop">应用商店</string>
+
+    <string name="debuggable">调试模式</string>
+    <string name="change_wallpaper">更换壁纸</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="about">关于</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#757575</color>
+    <color name="colorDivider">#DCDCDA</color>
+    <color name="colorBackground">#FFEEEEEE</color>
+
+    <color name="colorBlue">#2196F3</color>
+    <color name="colorBlueDark">#1976D2</color>
+    <color name="colorBlueLight">#21BFFF</color>
+    <color name="colorOrange">#FF9800</color>
+</resources>

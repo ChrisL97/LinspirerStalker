@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="通用">
+
+        <EditTextPreference
+            android:key="edit_vmac"
+            android:title="虚拟MAC地址"
+            app:dialogMessage="为空则使用真实MAC地址" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/name_launcher">
+
+        <Preference
+            android:key="btn_launcher_wallpaper"
+            android:title="@string/change_wallpaper"/>
+
+        <Preference
+            android:key="btn_launcher_get_password2"
+            android:title="获取管理员密码"/>
+
+        <Preference
+            android:key="btn_launcher_chg_password2"
+            android:title="修改管理员密码"/>
+
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:key="switch_launcher_licence"
+            android:title="登录后检查设备Licence"/>
+
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="switch_launcher_logcat"
+            android:title="处理设备日志"
+            android:summary="上传并处理普通日志和违规日志"/>
+
+        <CheckBoxPreference
+            android:key="check_ifly_admin"
+            android:title="管理员免密登录"
+            android:summary="长按登录按钮即可打开管理员控制面板"/>
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="switch_launcher_debug"
+            android:title="@string/debuggable"
+            android:icon="@drawable/ic_debuggable"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/name_userlogin">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="switch_userlogin_debug"
+            android:title="@string/debuggable"
+            android:icon="@drawable/ic_debuggable"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/name_appshop">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="switch_appshop_debug"
+            android:title="@string/debuggable"
+            android:icon="@drawable/ic_debuggable"/>
+
+    </PreferenceCategory>
+</PreferenceScreen>
